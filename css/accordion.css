@@ -1,0 +1,58 @@
+.accordionButton {
+    background-color: #ded7d4;
+    background-image: url(../images/material/acc_arrow_right.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    color: #333333;
+    display: block;
+    _float: none;  /* Float works in a all browsers but IE6 */
+    cursor: pointer;
+    padding:10px 0 10px 20px;
+    margin-top: 0;
+    margin-bottom: 1px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -m-border-radius: 5px;
+    border-radius: 5px;
+/*    -webkit-transition: anything 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    -o-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;*/
+}
+
+.on {
+    background-color: #ec5e14;
+    background-image: url(../images/material/acc_arrow_down.png);
+    color: #fff;
+}
+
+.over {
+    background-color: #ec5e14;
+    background-image: url(../images/material/acc_arrow_right.png);
+    background-position: right center;
+    background-repeat: no-repeat;}
+
+.basic  {
+    width: 100%;
+}
+.basic div.acc_content {
+    background-color: #f7f3f0;
+    margin-bottom : 20px;
+    _float: none; /* Float works in all browsers but IE6 */
+}
+.basic .acc_around {
+    padding: 20px;
+}
+.basic p {
+    margin-bottom : 10px;
+    border: none;
+    text-decoration: none;
+
+}
+
+@media print {
+    .basic div, #navigation ul, #list2 dd, #list3 div{
+        display: block!important;
+        height: auto!important
+    }
+}
